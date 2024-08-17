@@ -18,6 +18,10 @@
     clip-path: none;
   }
 
+  .spans{
+    text-size-adjust: 18px;
+  }
+
   .about-wrapper {
     @include respond(phone) {
       padding-bottom: 5rem;
