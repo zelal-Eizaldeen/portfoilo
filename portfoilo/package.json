@@ -1,0 +1,28 @@
+{
+  "name": "zelal",
+  "version": "1.0.1",
+  "description": "A clean, beautiful and responsive portfolio me!",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w src/style/ -o dist/css/ --recursive"
+  },
+  "keywords": [],
+  "author": "Zelal Eizaldeen",
+  "license": "ISC",
+  "homepage": "https://github.com/zelal-Eizaldeen/portfoilo",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "sass": "^1.77.8",
+    "sass-loader": "^16.0.0",
+    "style-loader": "^4.0.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3",
+    "lodash": "^4.17.21",
+    "popper.js": "^1.16.1",
+    "tilt.js": "^1.2.1",
+    "vanilla-tilt": "^1.8.0"
+  }
+}
